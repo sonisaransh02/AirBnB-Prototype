@@ -20,8 +20,8 @@ const coordinates=searchResults.map((result) => ({
 });
 
     return (<ReactMapGL
-    mapStyle='mapbox://styles/sonisaransh/cl4tylo3o000314rm4xwkbrex'
-    mapboxAccessToken ='pk.eyJ1Ijoic29uaXNhcmFuc2giLCJhIjoiY2w0dHlobjY0MDJpYTNpcWU2bHV0dDB0NSJ9.EAlTV10SKtOLf0dXDcr2-A' 
+    mapStyle=//enter styles uri generated
+    mapboxAccessToken = //enter token generated from the mapbox 
     {...viewport}
     onMove={event => setViewport(event.viewport)}
     >
